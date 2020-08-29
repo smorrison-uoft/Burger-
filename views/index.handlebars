@@ -1,0 +1,73 @@
+ <header>
+      <h1>Burgers To Eat</h1>
+    </header>
+
+    <div class="grid-container fluid">
+      <div class="grid-x grid-margin-x">  
+        <div class="cell small-12">
+          <div class="header-image">
+            <img src="/assets/images/burger.jpeg" width="200" alt="Burger">
+          </div>
+        </div>
+        <div class="cell medium-6 small-12">
+          <div class="column-container">
+
+            <h3>Burgers To Devour:</h3>
+            <table>
+              <tbody>
+                {{#each burgers}}
+                    {{#unless devoured}}
+                      <tr>
+                        <td>{{this.id}}</td>
+                        <td>{{this.burger_name}}</td>
+                        <td><button type="button" class="alert button devour-it" data-id="{{this.id}}">Devour It!</button></td>
+                      </tr>
+                    {{/unless}}
+                  {{/each}}
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="cell medium-6 small-12">
+          
+          <div class="column-container">
+
+            <h3>Burgers Devoured:</h3>
+            <table>
+              <tbody>
+              {{#each burgers}}
+                {{#if devoured}}
+                  <tr>
+                    <td>{{this.id}}</td>
+                    <td>{{this.burger_name}}</td>
+                    <td><button type="button" class="alert button delete" data-id="{{this.id}}">Delete</button></td>
+                  </tr>
+                {{/if}}
+              {{/each}}
+              </tbody>
+            </table>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="grid-container fluid">
+        <div class="grid-x grid-margin-x">
+          <div class="form-container">
+              <div class="cell small-5">
+                <form class="create-form">
+                    <h3>Add a Burger</h3>
+                    <div class="form-group">
+                      <div class="input-group">
+                        <input class="input-group-field" id="burger_name" name="burger_name" type="text">
+                        <div class="input-group-button">
+                          <input type="submit" class="alert button" value="Add">
+                        </div>
+                      </div>
+                    </div>
+                </form>
+              </div>
+          </div>
+        </div>
+    </div>

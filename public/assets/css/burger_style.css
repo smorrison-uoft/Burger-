@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #88e0e3;
+}
+
+header {
+    background-color: #88e0e3;
+    border-bottom: 8px solid #88e0e3;
+}
+
+.header-image {
+    margin: 20px auto;
+    width: 200px;
+    border: 10px solid #bdcc37;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #140705;
+    margin-bottom: 5px;
+}
+
+.column-container {
+    background-color: #FA9632;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.column-container h3 {
+    background-color: #FAC864;
+    color: #37cccc;
+    padding: 5px 0 5px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.form-container {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #FA9632;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.create-form {
+    background-color: #FAC864;
+}
+
+.create-form h3 {
+    text-align: center;
+    color: #37ccb3;
+    border-radius: 10px 10px 0 0;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #fbf586;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #fffbaa;
+}
+
+.input-group-field {
+    background-color: #fffbaa;
+    
+}

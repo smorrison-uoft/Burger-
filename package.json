@@ -1,0 +1,26 @@
+{
+  "name": "burger",
+  "version": "1.3.7",
+  "description": "food app that lets users input the names of burgers they'd like to eat.",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smorrison-uoft/Burger-.git"
+  },
+  "author": "Steph Morrison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smorrison-uoft/Burger-/issues"
+  },
+  "homepage": "https://github.com/smorrison-uoft/Burger-#readme"
+}
