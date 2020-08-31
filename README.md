@@ -10,3 +10,6 @@ An application that allows you to input burgers you want to devour by adding the
 4. install express by typing npm install express.
 5. install express handlebars by typing npm install express-handlebars.
 6. Run application by typing node server.js
+
+# Usage 
+Add burgers you want in the input field, this will then add your burger to the 'Burgers to devour!' list.
