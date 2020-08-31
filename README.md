@@ -7,9 +7,9 @@ An application that allows you to input burgers you want to devour by adding the
 1. Install latest version of node by opening up terminal and typing: node install
 2. Navigate to project folder and install npm packages by typing: npm install
 3. Install mysql by typing npm install mysql
-4. install express by typing npm install express.
-5. install express handlebars by typing npm install express-handlebars.
-6. Run application by typing node server.js
+4. Install express by typing npm install express.
+5. Install express handlebars by typing npm install express-handlebars.
+6. Run application: node server.js in terminal 
 
 # Usage 
 Add burgers you want in the input field, this will then add your burger to the 'Burgers to devour!' list.
